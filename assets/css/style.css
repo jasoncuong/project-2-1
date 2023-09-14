@@ -570,6 +570,7 @@ a {
 /* Footer */
 .footer {
     padding: 130px 0 50px 0;
+    background-color: #fffcf4;
 }
 
 .footer-top {
@@ -592,3 +593,24 @@ a {
     display: inline-block;
 }
 
+.social-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.social-item .desc {
+    color: #535353;
+    font-size: 1.6rem;
+    margin-left: 9px;
+}
+
+.copyright {
+    margin-top: 80px;
+}
+
+.copyright p {
+    color: #b0b5b4;
+    font-size: 1.8rem;
+    text-align: center;
+}
